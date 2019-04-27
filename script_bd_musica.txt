@@ -1,0 +1,13 @@
+CREATE DATABASE musica;
+
+USE musica;
+
+CREATE TABLE `musica` (
+`id` int(10) NOT NULL AUTO_INCREMENT,  
+`titulo` varchar(30) NOT NULL,  
+`artista` varchar(20) NOT NULL,  
+`data_lancamento` varchar(4) NOT NULL,  
+`tamanho` decimal(10,1) NOT NULL,
+`estilo` varchar(30) NOT NULL,  
+PRIMARY KEY (`id`)
+)
